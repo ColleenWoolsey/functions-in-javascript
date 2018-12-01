@@ -17,6 +17,8 @@ for (let currentNumber = 1; currentNumber <= 100; currentNumber++) {
       console.log("Chicken") // Only 2, 4, 6 will appear
     } else if(currentNumber % 7 === 0) {
         console.log("Monkey")
-    } else   
-    console.log(currentNumber)
+    } else if(currentNumber % 35 === 0) {
+        console.log("ChickenMonkey")
+    }  else {
+      console.log(currentNumber)
 }
